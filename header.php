@@ -22,10 +22,10 @@ require 'vendor/autoload.php';
 //}else{
 //}
 function openMysqlConnection(){
-    $servername = "127.0.0.1";
-    $username = "root";
-    $password = "";
-    $dbname = "myclass";
+   $servername = "sql12.freemysqlhosting.net";
+    $username = "sql12382406";
+    $password = "9HYtEH9nec";
+    $dbname = "sql12382406";
     $conn = new mysqli($servername, $username, $password, $dbname);
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
